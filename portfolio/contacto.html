@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio - Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">Nicolas Furnieles</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="proyectos.html" class="nav-link">Proyectos</a>
+                <a href="sobre-mi.html" class="nav-link">Sobre Mí</a>
+                <a href="contacto.html" class="nav-link active">Contacto</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <section class="page-header">
+            <h1 class="page-title">Contacto</h1>
+            <p class="page-subtitle">¿Tienes un proyecto en mente? Me encantaría escucharlo.</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="contact-info-title">Hablemos</h2>
+                    <p class="contact-info-text">
+                        Si tienes un proyecto interesante, una oportunidad de colaboración o simplemente quieres conectar, no dudes en contactarme. Estoy siempre abierto a nuevas oportunidades de aprendizaje y desarrollo.
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <h3 class="method-title">Email</h3>
+                            <a href="mailto:nicolas.furnieles@email.com" class="method-link">nicolas.furnieles@live.u-tad.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <h3 class="method-title">Teléfono</h3>
+                            <a href="tel:+34123456789" class="method-link">+34 658-094-633</a>
+                        </div>
+                        <div class="contact-method">
+                            <h3 class="method-title">Ubicación</h3>
+                            <p class="method-text">España</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links-contact">
+                        <a href="https://github.com/nfurniel" class="social-link">GitHub</a>
+                        <a href="https://www.linkedin.com/in/nicolas-furnieles-0b9117347/" class="social-link">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName" class="form-label">Nombre</label>
+                                <input type="text" id="firstName" name="firstName" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName" class="form-label">Apellido</label>
+                                <input type="text" id="lastName" name="lastName" class="form-input" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Asunto</label>
+                            <input type="text" id="subject" name="subject" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Estás disponible para proyectos?</h3>
+                    <p class="faq-answer">
+                        Sí, estoy abierto a colaborar en proyectos interesantes, especialmente aquellos que me permitan aplicar y expandir mis conocimientos en desarrollo web.
+                    </p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Qué tecnologías dominas?</h3>
+                    <p class="faq-answer">
+                        Trabajo con HTML, CSS, JavaScript, React, TypeScript, PHP, Laravel, MySQL, MongoDB, Bootstrap y Tailwind CSS. Estoy constantemente aprendiendo nuevas tecnologías.
+                    </p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Qué tipo de proyectos te interesan?</h3>
+                    <p class="faq-answer">
+                        Me interesan proyectos de desarrollo web full stack, desde aplicaciones con React hasta sistemas backend con Laravel. También me apasionan los proyectos que presentan desafíos técnicos interesantes.
+                    </p>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Estás buscando prácticas o empleo?</h3>
+                    <p class="faq-answer">
+                        Sí, estoy abierto a oportunidades de prácticas profesionales o proyectos freelance que me permitan ganar experiencia real mientras continúo mis estudios en la UTAD.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">© 2025. Diseñado y desarrollado por Nicolas Furnieles.</p>
+            <div class="footer-links">
+                <a href="https://github.com/nfurniel" class="footer-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/nicolas-furnieles-0b9117347/" class="footer-link">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
